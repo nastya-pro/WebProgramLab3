@@ -1,0 +1,178 @@
+body {
+    background: lightgray;
+}
+
+.content {
+    background: white;
+    border-radius: 20px;
+    padding: 40px;
+    font-size: 1.3em;
+    display: inline-block;
+    width: 74%;
+}
+
+.image {
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+
+.text {
+    text-align: center;
+    padding: 20px;
+}
+
+.tile {
+    width: 37%;
+    margin: 30px;
+    border: 1px black solid;
+    border-radius: 30px;
+    display: inline-block;
+    padding: 30px;
+}
+
+.top {
+    display: inline-block;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5em;
+}
+
+h2 {
+    text-align: center;
+}
+
+.menu {
+    width: 98%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    background: darksalmon;
+    list-style-type: none;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.menu li {
+     display: inline-block;
+     text-align: center;
+     font-size: 1.2em;
+     font-weight: bold;
+     color: white;
+ }
+
+.menu a:hover {
+    background: antiquewhite;
+}
+
+.menu a, .menu_right label {
+    display: inline-block;
+    text-decoration: none;
+    padding: 20px 30px;
+}
+
+.menu_right {
+    float: right;
+}
+
+.menu a:link {
+    color: white;
+}
+
+.menu a:visited {
+    color: white;
+}
+
+.title {
+    padding: 15px 30px;
+}
+
+.title span {
+    font-size: 1.5em;
+    display: inline-block;
+    margin-left: 110px;
+    margin-right: 150px;
+}
+
+.title div {
+    display: inline-block;
+    height: 30px;
+    position: relative;
+}
+
+.title img {
+    height: 54px;
+    position: absolute;
+    top: -10px;
+    left: 0;
+}
+
+.bottom {
+    width: 100%;
+}
+
+.bottom ul {
+    width: 1300px;
+    padding-left: 0;
+    font-size: 1.2em;
+    color: black;
+    list-style-type: none;
+    margin: auto;
+}
+
+.bottom li {
+    display: inline-block;
+    padding: 20px 30px;
+}
+
+.left_menu {
+    width: 15%;
+    height: 600px;
+    float: left;
+    background: white;
+    border-radius: 20px;
+    padding: 20px;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.main {
+    margin: auto;
+    margin-top: 80px;
+    width: 1400px;
+}
+
+.left_menu ul {
+    padding-left: 0;
+    list-style-type: none;
+}
+
+.left_menu li {
+    display: block;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: white;
+}
+
+.left_menu a:link {
+    color: black;
+}
+
+.left_menu a:visited {
+    color: black;
+}
+
+.left_menu a:hover {
+    background: darkgray;
+}
+
+.left_menu a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 20px 30px;
+    border-bottom: 1px black solid;
+}
