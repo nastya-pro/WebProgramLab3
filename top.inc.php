@@ -8,5 +8,10 @@
     <li class="menu_right">
         <label>Поиск: <input type="text" class="top_right"/></label>
     </li>
-    <li class="menu_right"><a href="index.php">Авторизация</a></li>
+         <?php
+         if (!empty($_SESSION['user_login'])){
+             echo "<li class='menu_right'><a href='index.php?logout=true'>Выход</a></li>";
+             echo "<li class='menu_right hello'>Привет, {$_SESSION['user_login']}!</li>";
+         }
+?>
 </ul>

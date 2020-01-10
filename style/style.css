@@ -68,7 +68,7 @@ h2 {
     background: antiquewhite;
 }
 
-.menu a, .menu_right label {
+.menu a, .menu_right label, .hello {
     display: inline-block;
     text-decoration: none;
     padding: 20px 30px;
@@ -175,4 +175,18 @@ h2 {
     text-decoration: none;
     padding: 20px 30px;
     border-bottom: 1px black solid;
+}
+
+.auth{
+    width: 400px;
+    margin: 40px auto;
+    font-size: 1.2em;
+    text-align: center;
+    background: white;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.auth_input {
+    margin-top: 20px;
 }

@@ -1,11 +1,5 @@
-﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
-    <link rel="stylesheet" href="style/lab1.css" type="text/css" media="screen"/>
-    <title>Лабораторная работа №1</title>
-</head>
-<body>
+﻿<?php header("Content-type: text/plain") ?>
+<link rel="stylesheet" href="style/lab1.css" type="text/css" media="screen"/>
 <h3>Табличная структура:</h3>
 <table class="color_table">
     <tr>
@@ -79,15 +73,13 @@
         <tr>
             <td>Тип питания</td>
             <td align="left">
-                <input type="radio" name="all" value="yes" />Все включено<br/>
-                <input type="radio" name="bd" value="yes" />
+                <input type="radio" name="all" value="yes"/>Все включено<br/>
+                <input type="radio" name="bd" value="yes"/>
                 Завтрак и ужин<br/>
-                <input type="radio" name="bl" value="yes" />Завтрак и обед<br/>
+                <input type="radio" name="bl" value="yes"/>Завтрак и обед<br/>
             </td>
         </tr>
     </table>
     <textarea rows="5" cols="45" name="comments">Пожелания</textarea>
     <div><input type="submit" value="Отправить"/></div>
 </form>
-</body>
-</html>
